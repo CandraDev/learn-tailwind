@@ -1,0 +1,26 @@
+{
+	"name": "learn-tailwind",
+	"version": "1.0.0",
+	"description": "This project created to learn the utility-based framework, tailwind CSS.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CandraDev/learn-tailwind.git"
+	},
+	"keywords": [
+		"learn"
+	],
+	"author": "CandraDev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/CandraDev/learn-tailwind/issues"
+	},
+	"homepage": "https://github.com/CandraDev/learn-tailwind#readme",
+	"dependencies": {
+		"tailwindcss": "^3.4.13"
+	}
+}
